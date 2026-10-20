@@ -1,0 +1,4 @@
+title: Free Form Edit Links
+description: Put every Google Form response's edit link into your response sheet, so answers can be changed later. Free Apps Script.
+plugins:
+  - jekyll-sitemap
