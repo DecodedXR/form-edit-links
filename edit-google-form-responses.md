@@ -32,6 +32,8 @@ A new **Edit Link** column appears with a link on every existing response, and e
 - **Fix an answer yourself:** click the row's Edit Link, change the answer, and submit. The form's response and the sheet row both update.
 - **Let people update their own answers:** first turn on **Settings → Responses → Allow response editing** in the form. Then send each person their link with a mail merge, using `{{Edit Link}}` in the email. [Free Mail Merge](https://github.com/DecodedXR/sheets-mail-merge) works on this sheet: in its script, set `EMAIL_COL` to your email question's column name (for example `'Email Address'` if the form collects emails).
 
+**Email each respondent their link automatically:** [Form Auto-Reply](https://github.com/DecodedXR/form-auto-reply) sends a personalized email on every submission. Put `{{Edit Link}}` in its draft, and it waits for this script to add the link.
+
 ## FAQ
 
 **Is an edit link private?** It isn't tied to a login: anyone who has the link can change that response. Send each link only to its own respondent.
